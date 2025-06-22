@@ -1,0 +1,43 @@
+{
+      "log": {
+            "loglevel": "warning"
+      },
+        "inbounds": [
+                {
+                          "port": 443,
+                                "protocol": "vmess",
+                                      "settings": {
+                                                "clients": [
+                                                              {
+                                                                            "id": "a1111111-2222-3333-4444-555555555555",
+                                                                                        "alterId": 64
+                                                              }
+                                                ]
+                                      },
+                                            "streamSettings": {
+                                                        "network": "ws",
+                                                                "wsSettings": {
+                                                                              "path": "/v2ray"
+                                                                },
+                                                                        "security": "none"
+                                            }
+                }
+        ],
+          "outbounds": [
+                {
+                          "protocol": "freedom",
+                                "settings": {}
+                }
+          ]
+}
+                }
+          ]
+                                                                }
+                                            }
+                                                              }
+                                                ]
+                                      }
+                }
+        ]
+      }
+}
